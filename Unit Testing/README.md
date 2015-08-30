@@ -169,7 +169,13 @@ TDD讲究的是：我们应该以最简单的代码通过测试。如果基于�
   
 Atlassian公司的Stash系统提供了SDK帮助开发者开发插件。其中，[Merge Request Check Plugin Module](https://developer.atlassian.com/stash/docs/latest/reference/plugin-module-types/merge-check.html) 可以在代码merge之前做检查。通过这个接口，我们可以在merge代码到master之前，触发CI系统执行当前分支代码与master最新代码merge到本地后的单测动作，当这个任务执行完毕并且结果返回正常后，再允许merge该分支到master分支。  
   
-另外，当前灰度发布的更新可以先merge到固定的dev分支，用dev做灰度测试。在灰度没有问题之后，再merge到master分支。而灰度发现问题后，这样的方式方便回滚代码，即在master分支上重新checkout新的dev分支即可。             
+另外，当前灰度发布的更新可以先merge到固定的dev分支，用dev做灰度测试。在灰度没有问题之后，再merge到master分支。而灰度发现问题后，这样的方式方便回滚代码，即在master分支上重新checkout新的dev分支即可。  
+  
+# 更多阅读
+  
+* [测试覆盖（率）到底有什么用？](http://www.infoq.com/cn/articles/test-coverage-rate-role)  
+* [*Unit Test* by Martin Fowler](http://martinfowler.com/bliki/UnitTest.html)               
+* [使用Spock框架进行单元测试](http://blog.jobbole.com/89874/) Spock是Java/Groovy上的一个新的单元测试框架。
   
   
   
