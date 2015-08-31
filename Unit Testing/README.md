@@ -175,7 +175,11 @@ Atlassian公司的Stash系统提供了SDK帮助开发者开发插件。其中，
   
 * [测试覆盖（率）到底有什么用？](http://www.infoq.com/cn/articles/test-coverage-rate-role)  
 * [*Unit Test* by Martin Fowler](http://martinfowler.com/bliki/UnitTest.html)               
-* [使用Spock框架进行单元测试](http://blog.jobbole.com/89874/) Spock是Java/Groovy上的一个新的单元测试框架。
+* [使用Spock框架进行单元测试](http://blog.jobbole.com/89874/) Spock是Java/Groovy上的一个新的单元测试框架。Spock有如下的特性：  
+	* 可以应用于java或groovy应用的单元测试框架。  
+	* 测试代码使用基于groovy语言扩展而成的规范说明语言（specification language）。  
+	* 通过junit runner调用测试，兼容绝大部分junit的运行场景（ide，构建工具，持续集成等）。  
+	* 框架的设计思路参考了JUnit，jMock，RSpec，Groovy，Scala，Vulcans……  
   
   
   
