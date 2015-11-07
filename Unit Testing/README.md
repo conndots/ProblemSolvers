@@ -1,5 +1,6 @@
 如何正确地单元测试？
 ===============
+[slides](http://slides.com/xiangqianlee/deck)
 # 什么是单元测试？
 在Wikipedia的[相关页面](https://zh.wikipedia.org/wiki/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95)中有如下的定义：  
 >在计算机编程中，单元测试（又称为模块测试, Unit Testing）是针对程序模块（软件设计的最小单位）来进行正确性检验的测试工作。程序单元是应用的最小可测试部件。  
