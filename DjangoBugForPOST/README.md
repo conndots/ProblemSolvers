@@ -12,7 +12,7 @@ Django 1.3.7关于POST请求读取Body的Bug导致报错解决
 
 ```python
 #...
-File "/xxx.py", line 103, in check_django_sign
+File "/xxx.py", line 103, in xxxx
     body = request.raw_post_data
   File "/xxx/django/http/__init__.py", line 267, in _get_raw_post_data
     raise Exception("You cannot access raw_post_data after reading from request's data stream")
